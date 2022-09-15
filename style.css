@@ -1,0 +1,36 @@
+body {
+    margin: 10px;
+    display: inline;
+    align-content: center;
+  }
+  
+  #real {
+    width: 125px;
+    margin-left: 7px;
+  }
+  
+  #dolar {
+    width: 125px;
+    margin-left: 7px;
+  }
+  
+  #conversorMoedas {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 100px;
+    height: 40px;
+  }
+  
+  #combobox {
+    margin-left: 5px;
+  }
+  
+  #pDolar {
+    visibility: hidden;
+  }
+  
+  #pReal {
+    visibility: hidden;
+  }
+  

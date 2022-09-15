@@ -1,0 +1,24 @@
+<html>
+<meta charset="utf-8">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+  <h1> Uma página para converter moedas.</h1>
+  <p>Selecione a moeda que deseja converter.</p>
+  <select id="combobox">
+    <option>Selecione uma opção.</option>
+    <option value="dolar" onclick="showDolarBox()">Real para Dolar
+    </option>
+    <option value="real" onclick="showRealBox()">Dolar para Real</option>
+  </select>
+  <p> Digite o valor que queira converter.</p>
+  <p id="pDolar"><input type="text" id="real"></input>Dolar</p>
+  <p id="pReal"><input type="text" id="dolar"></input>Real</p>
+  <button id="conversorMoedas" onclick="converterMoedas()">Converter Moeda</button>
+</body>
+
+</html>
